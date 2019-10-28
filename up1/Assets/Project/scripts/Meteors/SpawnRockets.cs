@@ -74,7 +74,7 @@ oftenrocket = oftenrocketbaza;
 
 	
 	}
-		void SpawningRck () { //Спавн ракет
+		void SpawningRck () { //Спавн рокет
 		if (!player.lose) {
 			Instantiate (rocket, new Vector3 (Random.Range (-1.5f, 1.5f), 5.5f, -1), Quaternion.identity);
 
